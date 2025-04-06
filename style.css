@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+  opacity: 0.4;
+}
+
+main {
+  padding: 3rem 1rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ffffff00;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+
+.orcamento {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 16px;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.orcamento img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.btn-orcamento {
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orcamento:hover {
+  background-color: #aa33cc;
+}
+
+.links {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.links img {
+  width: 180px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.links img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 2rem 1rem 1rem;
+  margin-top: 3rem;
+  color: #bbb;
+}
+
+.info-extra {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo-footer {
+  max-width: 120px;
+  margin-bottom: 0.5rem;
+  filter: brightness(0) invert(1);
+}
+
+.info-cnpj {
+  font-size: 0.65rem;
+  color: #474747;
+  opacity: 0.9;
+  text-align: center;
+  margin-bottom: 0rem; /* ou até 0 */
+  }
+
+/* Footer roxo com contato */
+.footer-contato {
+  background-color: #242424;
+  text-align: center;
+  padding: 0.8rem;
+  animation: pulse 3s infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-contato p {
+  margin: 2px 0;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.footer-contato h1 {
+  color: #D1A3FF;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-contato {
+  color: #fff;
+  font-size: 0.6rem;
+}
+
+
+
